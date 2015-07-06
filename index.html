@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript Calculator</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+</head>
+<body>
+	<h1>Use like a normal calculator</h1>
+	<section class="calculator">
+		<div id="display">0</div>
+		<div class="numpad" onclick="addDigit(1)">1</div>
+		<div class="numpad" onclick="addDigit(2)">2</div>
+		<div class="numpad" onclick="addDigit(3)">3</div>
+		<div class="numpad" onclick="addDigit(4)">4</div>
+		<div class="numpad" onclick="addDigit(5)">5</div>
+		<div class="numpad" onclick="addDigit(6)">6</div>
+		<div class="numpad" onclick="addDigit(7)">7</div>
+		<div class="numpad" onclick="addDigit(8)">8</div>
+		<div class="numpad" onclick="addDigit(9)">9</div>
+		<div class="numpad" onclick="addDigit(0)">0</div>
+		<div class="numpad add" onclick="createOperation(add)">+</div>
+		<div class="numpad subtract" onclick="createOperation(subtract)">-</div>
+		<div class="numpad multiply" onclick="createOperation(multiply)">*</div>
+		<div class="numpad divide" onclick="createOperation(divide)">/</div>
+		<div class="numpad equals" onclick="displayEquals()">=</div>
+		<div class="numpad clear" onclick="displayClear()">C</div>
+	</div>
+</body>
